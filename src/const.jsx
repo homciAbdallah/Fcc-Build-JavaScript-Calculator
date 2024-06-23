@@ -1,0 +1,74 @@
+  export const dataCalcule=[
+  {
+    name:"clear",
+    value:"AC"
+  },
+  {
+    name:"divide",
+    value:"/"
+  },
+  {
+    name:"multiply",
+    value:"x"
+  },
+  {
+    name:"seven",
+    value:"7"
+  },
+  {
+    name:"eight",
+    value:"8"
+  },
+  {
+    name:"nine",
+    value:"9"
+  },
+  {
+    name:"subtract",
+    value:"-"
+  },
+  {
+    name:"four",
+    value:"4"
+   },
+  {
+    name:"five",
+    value:"5"
+},
+  {
+    name:"six",
+    value:"6"
+  },
+  {
+    name:"add",
+    value:"+"
+  },
+  {
+    name:"one",
+    value:"1"
+  },
+  {
+    name:"two",
+    value:"2"
+  },
+  {
+    name:"three",
+    value:"3"
+  },
+  {
+    name:"equals",
+    value:"="
+  },
+  {
+    name:"zero",
+    value:"0"
+  },
+  {
+    name:"decimal",
+    value:"."}
+
+  ]
+  export const operations=['x','/','+','AC','.','-','=']
+  export const numbers=['0','1','2','3','4','5','6','7','8','9']
+    
+

@@ -1,0 +1,68 @@
+:root {
+  --Moderateviolet: hsl(263, 55%, 52%);
+  --Verydarkgrayishblue: hsl(217, 19%, 35%);
+  --Verydarkblackishblue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+  --orenge: hwb(38 7% 5%);
+  --Lightgrayishblue: hsl(210, 46%, 95%);
+  --Weights500: 500;
+  --Weights600: 600;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 30px;
+  background-color: var(--Lightgrayishblue);
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  color: var(--White);
+  place-content: center;
+}
+main {
+  width: 460px;
+  position: relative;
+  background-color: var(--Verydarkblackishblue);
+  padding: 5px;
+}
+#expression {
+  text-align: right;
+  min-height: 20px;
+  font-family: digital;
+  font-size: 20px;
+  color: orange;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 5px;
+  border: none;
+  background-color: var(--Moderateviolet);
+}
+button:hover {
+  color: white;
+  outline: 0.1em solid var(--orenge);
+}
+#clear {
+  width: 210px;
+  background-color: var(--orenge);
+}
+#zero {
+  width: 210px;
+}
+#equals {
+  position: absolute;
+  height: 210px;
+  background-color: var(--Verydarkgrayishblue);
+}
